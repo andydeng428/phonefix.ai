@@ -1,20 +1,59 @@
-
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
-    <form
-      enctype="multipart/form-data"
-      action="http://localhost:8080/upload"
-      method="post"
-    >
-      <input type="file" name="myFile" />
-      <input type="submit" value="upload" />
-    </form>
-  </body>
+<html>
+<head>
+    <title>Phonefixer.ai Uploader</title>
+    <script src="https://kit.fontawesome.com/161cfb32c6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+    <style>
+        /* Style for the larger navbar */
+        .navbar.is-primary {
+            font-size: 30px; /* Adjust the font size as needed */
+        }
+
+        /* Style for the larger navbar logo */
+        .navbar-item.logo {
+            font-size: 40px; /* Adjust the font size as needed */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar is-info" role="navigation" aria-label="main navigation">
+      <div class="container">
+          <div class="navbar-brand">
+              <a class="navbar-item logo" href="#"
+                  style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:pt">
+                  phonefix.ai
+              </a>
+              <a class="navbar-item navbar-end" href="#">
+              </a>
+          </div>
+      </div>
+  </nav>
+
+    <!-- Centered Content -->
+    <section class="section">
+        <div class="container">
+            <div class="tile box has-text-centered">
+                <div class="tile is-ancestor is-vertical">
+                    <h1 class="title">Upload file here</h1>
+                    <form
+                    enctype="multipart/form-data"
+                    action="http://localhost:8080/upload"
+                    method="post"
+                  >
+                    <input type="file" name="myFile" />
+                    <input type="submit" value="upload" />
+                  </form>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+</body>
+
 </html>
+
