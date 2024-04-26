@@ -1,9 +1,11 @@
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## PhoneFix.ai
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
+![image](https://github.com/andydeng428/phonefix.ai/assets/156530133/a0dbec68-37e1-459a-b085-2f791c27f51b)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+
+For this Hackathon project, we decided to solve the 
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
