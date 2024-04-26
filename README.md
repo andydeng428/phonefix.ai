@@ -1,10 +1,6 @@
 <!-- ABOUT THE PROJECT -->
 ## PhoneFix.ai
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-![image](https://github.com/andydeng428/phonefix.ai/assets/156530133/a0dbec68-37e1-459a-b085-2f791c27f51b)
-
-
 For this Hackathon project, we decided to solve the 
 
 Here's why:
